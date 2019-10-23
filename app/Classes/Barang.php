@@ -22,4 +22,8 @@ class Barang {
   public function editBarang() {
 
   }
+
+  public function cariBarang() {
+    
+  }
 }
