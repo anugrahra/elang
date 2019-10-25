@@ -1,0 +1,14 @@
+/* If you add background image it will look like transparent form*/
+#bodyLogin {
+    background-image: url('../../public/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+thead {
+    background-color: grey;
+}
+
+.custom-margin {
+    margin-top: 20vh;
+}
