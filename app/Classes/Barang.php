@@ -1,14 +1,22 @@
 <?php
 
 class Barang {
-  protected $kodeBarang,
-            $namaBarang,
-            $stockBarang,
-            $satuanBarang,
-            $jenisBarang;
+  private $kodeBarang,
+          $namaBarang,
+          $stockBarang,
+          $satuanBarang,
+          $jenisBarang,
+          
+          $db;
+  
+  public function __construct() {
+    $this->db = new Database();
+  }
   
   public function tampilkanBarang() {
-    
+    $query = "SELECT * FROM dummy";
+    $result = mysqli_query($this->db->connection, $query);
+    return $result;
   }
   
   public function tambahBarang() {

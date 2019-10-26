@@ -10,6 +10,10 @@ class Transaksi extends Barang {
             // Barang::namaBarang
             // Barang::satuanBarang
 
+public function __construct() {
+  echo "class transaksi";
+}
+
 public function penerimaanBarang() {
 
 }

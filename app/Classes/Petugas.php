@@ -4,6 +4,10 @@ class Petugas {
   protected $namaPetugas,
             $bagianPetugas;
 
+  public function __construct() {
+    echo "class petugas";
+  }
+  
   public function tampilkanPetugas() {
 
   }
