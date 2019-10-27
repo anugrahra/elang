@@ -52,8 +52,8 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Pemesanan</a>
-                    <a class="dropdown-item" href="#">Transaksi Penerimaan</a>
-                    <a class="dropdown-item" href="#">Transaksi Pengeluaran</a>
+                    <a class="dropdown-item" href="transaksi_penerimaan.php">Transaksi Penerimaan</a>
+                    <a class="dropdown-item" href="transaksi_pengeluaran.php">Transaksi Pengeluaran</a>
                 </div>
             </li>
             <li class="nav-item dropdown">

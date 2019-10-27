@@ -2,10 +2,7 @@
 require_once "view/templates/header.php";
 require_once "init/init.php";
 
-$db = new Database();
 $barang = new Barang();
-$petugas = new Petugas();
-$transaksi = new Transaksi();
 
 $daftarBarang = $barang->tampilkanBarang();
 
@@ -13,6 +10,23 @@ $daftarBarang = $barang->tampilkanBarang();
 
 <div class="row justify-content-center mt-3 mb-3">
     <h1><b>Daftar Barang</b></h1>
+</div>
+
+<div class="row mb-1">
+    <div class="col-md-6">
+        <button type="button" class="btn btn-success">Tambah Barang</button>
+    </div>
+    <div class="col-md-3"></div>
+    <div class="col-md-3">
+        <form>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="validationTooltipUsernamePrepend"><i class="fas fa-search"></i></span>
+                </div>
+                <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Cari barang" aria-describedby="validationTooltipUsernamePrepend">
+            </div>
+        </form>
+    </div>
 </div>
 
 <table class="table table-bordered table-hover">
