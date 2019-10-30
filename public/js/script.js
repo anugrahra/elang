@@ -20,3 +20,4 @@
 // current date
 document.querySelector("#tanggal_diterima").valueAsDate = new Date();
 document.querySelector("#tanggal_dikeluarkan").valueAsDate = new Date();
+document.querySelector("#tanggal_pemesanan").valueAsDate = new Date();

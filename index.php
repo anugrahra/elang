@@ -28,13 +28,12 @@
 			   <!--text-white if want text color white-->
             <h6 class="text-center">E-FORM LAPORAN KELUAR MASUK BARANG</h6>
             <p class="text-center">UPTD AIR MINUM KOTA CIMAHI</p>
-            <form action="#" class="shadow-lg p-4">
+            <form action="#" class="shadow-lg p-4 mb-3">
                <div class="form-group">
-                  <i class="fas fa-user"></i><label for="pengguna" class="pl-2 font-weight-bold">Pengguna</label><input type="text" class="form-control" placeholder="Pengguna">
+                  <i class="fas fa-user"></i><label for="pengguna" class="pl-2 font-weight-bold">Pengguna</label><input type="text" class="form-control">
                </div>
                <div class="form-group">
-                  <i class="fas fa-key"></i><label for="kata_sandi" class="pl-2 font-weight-bold">Kata Sandi</label><input type="password"
-                     class="form-control" placeholder="Kata Sandi">
+                  <i class="fas fa-key"></i><label for="kata_sandi" class="pl-2 font-weight-bold">Kata Sandi</label><input type="password" class="form-control">
                </div>
 			      <button type="submit" class="btn-primary btn-lg mt-3 btn-block shadow-sm font-weight-bold">Masuk</button>
 			   </form>

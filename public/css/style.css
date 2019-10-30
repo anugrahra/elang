@@ -1,12 +1,13 @@
 /* If you add background image it will look like transparent form*/
 #bodyLogin {
-    background-image: url('../../public/img/background.jpg');
+    /* background-image: url('../../public/img/background.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #3BB9FF;
 }
 
 thead {
-    background-color: grey;
+    background-color: rgb(192,192,192);
 }
 
 .custom-margin {

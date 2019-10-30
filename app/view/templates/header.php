@@ -22,7 +22,7 @@
 <title>Elang</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
     <a class="navbar-brand" href="#"><b><i>E</i>LANG</b></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -51,7 +51,7 @@
                 <i class="fas fa-exchange-alt"></i> Transaksi
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Pemesanan</a>
+                    <a class="dropdown-item" href="transaksi_pemesanan.php">Pemesanan</a>
                     <a class="dropdown-item" href="transaksi_penerimaan.php">Transaksi Penerimaan</a>
                     <a class="dropdown-item" href="transaksi_pengeluaran.php">Transaksi Pengeluaran</a>
                 </div>
@@ -63,13 +63,13 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Stock Opname</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Laporan Pemesanan</a>
-                    <a class="dropdown-item" href="#">Laporan Penerimaan</a>
-                    <a class="dropdown-item" href="#">Laporan Pengeluaran</a>
+                    <a class="dropdown-item" href="laporan_pemesanan.php">Laporan Pemesanan</a>
+                    <a class="dropdown-item" href="laporan_penerimaan.php">Laporan Penerimaan</a>
+                    <a class="dropdown-item" href="laporan_pengeluaran.php">Laporan Pengeluaran</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-sign-out-alt"></i> Keluar</a>
+                <a class="nav-link" href="logout.php"><i class="fas fa-sign-out-alt"></i> Keluar</a>
             </li>
         </ul>
     </div>
