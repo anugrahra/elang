@@ -35,9 +35,10 @@
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-user"></i> Profil
+                <i class="fas fa-user"></i> namaUser
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="user_profil.php">Profil</a>
                     <a class="dropdown-item" href="#">Daftar Pengguna</a>
                     <a class="dropdown-item" href="#">Daftar Unit</a>
                     <a class="dropdown-item" href="#">Daftar Pemasok</a>
@@ -61,7 +62,7 @@
                 <i class="fas fa-file-alt"></i> Laporan
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Stock Opname</a>
+                    <a class="dropdown-item" href="stock_opname.php">Stock Opname</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="laporan_pemesanan.php">Laporan Pemesanan</a>
                     <a class="dropdown-item" href="laporan_penerimaan.php">Laporan Penerimaan</a>
