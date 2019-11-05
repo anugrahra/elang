@@ -39,8 +39,8 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="user_profil.php">Profil</a>
-                    <a class="dropdown-item" href="#">Daftar Pengguna</a>
-                    <a class="dropdown-item" href="#">Daftar Unit</a>
+                    <a class="dropdown-item" href="daftar_pengguna.php">Daftar Pengguna</a>
+                    <a class="dropdown-item" href="daftar_unit.php">Daftar Unit</a>
                     <a class="dropdown-item" href="#">Daftar Pemasok</a>
                 </div>
             </li>
