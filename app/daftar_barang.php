@@ -2,8 +2,6 @@
 require_once "view/templates/header.php";
 require_once "init/init.php";
 
-$barang = new Barang();
-
 $daftarBarang = $barang->tampilkanBarang();
 
 ?>

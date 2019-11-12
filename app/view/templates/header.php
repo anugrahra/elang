@@ -1,3 +1,4 @@
+<?php ob_start();?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -41,7 +42,7 @@
                     <a class="dropdown-item" href="user_profil.php">Profil</a>
                     <a class="dropdown-item" href="daftar_pengguna.php">Daftar Pengguna</a>
                     <a class="dropdown-item" href="daftar_unit.php">Daftar Unit</a>
-                    <a class="dropdown-item" href="#">Daftar Pemasok</a>
+                    <a class="dropdown-item" href="daftar_pemasok.php">Daftar Pemasok</a>
                 </div>
             </li>
             <li class="nav-item">

@@ -1,4 +1,7 @@
-<?php require_once "view/templates/header.php"; ?>
+<?php
+require_once "view/templates/header.php";
+require_once "init/init.php";
+?>
 
 <div class="row justify-content-center mt-5">
     <h1>Selamat Datang, <b>User</b> :)</h1>

@@ -1,3 +1,17 @@
+<?php
+require_once "app/Classes/Database.php";
+require_once "app/Classes/User.php";
+
+$user = new User();
+
+if(isset($_POST['submit'])) {
+   $nama_pengguna = $_POST['nama_pengguna'];
+   $kata_sandi = $_POST['kata_sandi'];
+
+   $user->login($nama_pengguna, $kata_sandi);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,14 +42,14 @@
 			   <!--text-white if want text color white-->
             <h6 class="text-center">E-FORM LAPORAN KELUAR MASUK BARANG</h6>
             <p class="text-center">UPTD AIR MINUM KOTA CIMAHI</p>
-            <form action="#" class="shadow-lg p-4 mb-3">
+            <form method="post" class="shadow-lg p-4 mb-3">
                <div class="form-group">
-                  <i class="fas fa-user"></i><label for="pengguna" class="pl-2 font-weight-bold">Pengguna</label><input type="text" class="form-control">
+                  <i class="fas fa-user"></i><label for="pengguna" class="pl-2 font-weight-bold">Pengguna</label><input type="text" name="nama_pengguna" class="form-control">
                </div>
                <div class="form-group">
-                  <i class="fas fa-key"></i><label for="kata_sandi" class="pl-2 font-weight-bold">Kata Sandi</label><input type="password" class="form-control">
+                  <i class="fas fa-key"></i><label for="kata_sandi" class="pl-2 font-weight-bold">Kata Sandi</label><input type="password" name="kata_sandi" class="form-control">
                </div>
-			      <button type="submit" class="btn-primary btn-lg mt-3 btn-block shadow-sm font-weight-bold">Masuk</button>
+			      <button type="submit" name="submit" class="btn-primary btn-lg mt-3 btn-block shadow-sm font-weight-bold">Masuk</button>
 			   </form>
             <p class="text-center mt-1">&copy; 2019 - present</p>
          </div>
